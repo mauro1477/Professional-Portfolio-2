@@ -18,7 +18,7 @@
 	</div>
 </template>
 <script>
-import projectsData from '../assets/js/projects-data';
+import projectsData from '../projects-data';
 export default {
     name: "Projects Block,",
 	data(){
