@@ -1,14 +1,14 @@
 <template>
 	<header class="flex justify-center bg-gray-900">
-		<div class="sm:flex sm:justify-between items-center sm:items-center sm:px-4 sm:pt-3 max-w-7xl w-1/1">
-			<div class="flex items-center justify-between px-4 py-1 sm:p-0">
+		<div class="sm:flex sm:justify-between items-center sm:items-center sm:px-4 sm:pt-3 sm:pb-2 max-w-7xl w-1/1">
+			<div class="flex items-center justify-between px-4 py-2 sm:p-0">
 			<div>
-			<img class="h-20" src="../assets/images/mauros-logo-v1.svg" alt="Mauro website Offical Logo" >
+			<img class="h-16" src="../assets/images/mauros-logo-v1.svg" alt="Mauro website Offical Logo" >
 		</div>
 		<div class="sm:hidden">
 			<button @click="isOpen = !isOpen" type="button" class="flex justify-center items-center bg-gray-900 text-gray-500 focus:outline-none w-6 h-6 rounded-sm">
-				<i v-if="!isOpen" class="fa-solid fa-bars text-gray-900"></i>
-				<i v-if="isOpen"  class="fa-solid fa-xmark-large text-gray-900"></i>
+				<i v-if="!isOpen" class="fa-solid fa-bars text-white text-2xl"></i>
+				<i v-if="isOpen"  class="fa-solid fa-xmark-large text-white text-2xl"></i>
 			</button>
 		</div>
 		</div class="">
