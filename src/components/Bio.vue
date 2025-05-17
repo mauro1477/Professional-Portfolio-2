@@ -4,9 +4,8 @@
 			<img src="../assets/images/linkedInImage.jpeg" alt="" class="relative inline-block h-[110px] w-[110px] !rounded-full object-cover object-center mb-2">
 			<div class="flex flex-col max-w-xl">
 				<p>
-				I am a dedicated full-stack PHP developer with a strong focus on creating custom WordPress themes. My expertise extends to various essential plugins, including Gravity Forms, Yoast SEO, WP Rocket, and Advanced Custom Fields, as well as developing custom plugins tailored to specific client requirements. I am adept at working with legacy code and have a proven ability to refactor when necessary.<br>
-		  </p><br>
-		  <p>
+				Hi, my name is Mauro Vargas. I am a dedicated full-stack PHP developer with a strong focus on creating custom WordPress themes. My expertise includes a variety of essential plugins, such as Gravity Forms, Yoast SEO, WP Rocket, and Advanced Custom Fields, as well as developing custom plugins to meet specific client requirements. I am skilled at working with legacy code and have a proven ability to refactor it when necessary.		  </p><br>
+				<p>
 				A self-starter by nature, I excel at troubleshooting and resolving issues independently. My familiarity with a range of hosting providers, including GoDaddy, WP Engine, and Pantheon, complements my background in technical support.
 		  </p><br>
 		  <p>

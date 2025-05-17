@@ -14,9 +14,9 @@
 		</div class="">
 			<div :class="isOpen ? 'flex' : 'hidden'" class="flex-col px-2 pb-4 sm:flex sm:p-0">
 		   <div class="sm:flex">
-				<a @click="navBarClick" class="block sm:mt-1 py-1 px-2 text-white font-semibold rounded hover:bg-gray-800" id="bio" >Bio</a>
-				<a @click="navBarClick" class="block mt-1 py-1 px-2 text-white font-semibold rounded hover:bg-gray-800  sm:ml-2" id="projects" >Portfolio</a>
-				<a @click="navBarClick" class="block mt-1 py-1 px-2 text-white font-semibold rounded hover:bg-gray-800  sm:ml-2" id="education" >Education</a>
+				<a @click="navBarClick" class="block sm:mt-1 py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer" id="bio" >Bio</a>
+				<a @click="navBarClick" class="block mt-1 py-1 px-2 text-white font-semibold rounded hover:bg-gray-800  sm:ml-2  cursor-pointer" id="projects" >Portfolio</a>
+				<a @click="navBarClick" class="block mt-1 py-1 px-2 text-white font-semibold rounded hover:bg-gray-800  sm:ml-2  cursor-pointer" id="education" >Education</a>
 			</div>
 			<div class="contact-banner">
 				<a class="px-2" href="https://www.linkedin.com/in/mvjr14/" target="_blank" rel="noopener noreferrer">
