@@ -1,5 +1,5 @@
 <template >
-   <h1 id="projects-section" class="flex justify-center font-bold text-2xl mb-2 mt-2">Portolio</h1>
+   <h1 id="projects-section" class="flex justify-center font-bold text-2xl mb-2 mt-2">Portfolio</h1>
 	<div class="flex flex-wrap mt-2 mb-4">
     <div class="md:w-1/3 sm:w-1/2 flex" v-for="project in projectsData" key="index">
 			<div class="rounded overflow-hidden shadow-lg">
