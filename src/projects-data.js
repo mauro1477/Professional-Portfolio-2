@@ -8,18 +8,20 @@ import iwfeaturesUrl from './assets/images/iwfeatures.png';
 import ingaaUrl from './assets/images/ingaa.png';
 import iwfUrl from './assets/images/iwf.png';
 import spnUrl from './assets/images/spn.png';
+import satelliteTelemetry from './assets/images/satellite-telemetry.png';
 
-const projectsData = [{
-        "name": "Shopping Cart",
-        "image": shoppingCartUrl,
-        "url": "https://shopping-cart-ufxf.onrender.com",
-        "technologies": ["Vue 3", "Vite", "Node JS", "Javascript", "Firebase Auth"]
+const projectsData = [
+    {
+        "name": "Forbes Tate",
+        "image": forbesTateUrl,
+        "url": "https://forbes-tate.com/",
+        "technologies": ["WordPress", "Google reCaptcha V3", "WP Engine", "Google Analytics"]
     },
     {
-        "name": "Coalition for Cannabis Policy, Education and Regulation",
-        "image": cpearUrl,
-        "url": "https://www.cpear.org/",
-        "technologies": ["WordPress", "Gravity Forms", "Yoast SEO"]
+        "name": "Satellite Telemetry Demo",
+        "image": satelliteTelemetry,
+        "url": "https://satellitetelemetrydemo.net/",
+        "technologies": ["EC2", "AWS Linux", "Ngnix", "uWebsockets", "Recharts", "C++", "CMake", "React", "ChatGPT",]
     },
     {
         "name": "Opened Range",
@@ -28,10 +30,10 @@ const projectsData = [{
         "technologies": ["WordPress", "Google Places API", "Vue 3", "Algolia", "Google Maps", "GeoSpatial"]
     },
     {
-        "name": "Forbes Tate",
-        "image": forbesTateUrl,
-        "url": "https://forbes-tate.com/",
-        "technologies": ["WordPress", "Google reCaptcha V3", "WP Engine", "Google Analytics"]
+        "name": "Coalition for Cannabis Policy, Education and Regulation",
+        "image": cpearUrl,
+        "url": "https://www.cpear.org/",
+        "technologies": ["WordPress", "Gravity Forms", "Yoast SEO"]
     },
     {
         "name": "Herzog Foundation",
@@ -68,6 +70,12 @@ const projectsData = [{
         "image": spnUrl,
         "url": "https://spn.org/",
         "technologies": ["WordPress", "WP Engine", "Gravity Forms"]
+    },
+    {
+        "name": "Shopping Cart",
+        "image": shoppingCartUrl,
+        "url": "https://shopping-cart-ufxf.onrender.com",
+        "technologies": ["Vue 3", "Vite", "Node JS", "Javascript", "Firebase Auth"]
     },
 ];
 
