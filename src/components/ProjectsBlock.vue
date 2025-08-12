@@ -1,7 +1,11 @@
 <template >
    <h1 id="projects-section" class="flex justify-center font-bold text-2xl mb-2 mt-2">Portfolio</h1>
 	<div class="flex flex-wrap mt-2 mb-4">
-    <div class="md:w-1/3 sm:w-1/2 flex" v-for="project in projectsData" key="index">
+    <div
+      class="md:w-1/3 sm:w-1/2 flex"
+      v-for="(project, index) in projectsData"
+      :key="index"
+    >
 			<div class="rounded overflow-hidden shadow-lg">
 				<img class="w-full" :src="project.image" alt="Sunset in the mountains">
 				<div class="px-4 py-4">
@@ -20,13 +24,13 @@
 <script>
 import projectsData from '../projects-data';
 export default {
-    name: "Projects Block,",
-	data(){
-		return {
-			projectsData : projectsData
-		}
-	}
-}
+  name: "Projects Block",
+  data() {
+    return {
+      projectsData: projectsData,
+    };
+  },
+};
 </script>
 <style>
     
