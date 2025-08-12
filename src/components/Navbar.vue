@@ -3,7 +3,7 @@
 		<div class="sm:flex sm:justify-between items-center sm:items-center sm:px-4 sm:pt-3 sm:pb-2 max-w-7xl w-1/1">
 			<div class="flex items-center justify-between px-4 py-2 sm:p-0">
 			<div>
-			<img class="h-16" src="../assets/images/mauros-logo-v1.svg" alt="Mauro website Offical Logo" >
+			<img class="h-16" src="../assets/images/mauros-logo-v1.svg" alt="Mauro website Official Logo" >
 		</div>
 		<div class="sm:hidden">
 			<button @click="isOpen = !isOpen" type="button" class="flex justify-center items-center bg-gray-900 text-gray-500 focus:outline-none w-6 h-6 rounded-sm">
