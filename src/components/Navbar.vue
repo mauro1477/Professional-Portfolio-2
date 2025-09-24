@@ -6,10 +6,15 @@
 			<img class="h-16" src="../assets/images/mauros-white-logo.webp" alt="Mauro website Official Logo" >
 		</div>
 		<div class="sm:hidden">
-			<button @click="isOpen = !isOpen" type="button" class="flex justify-center items-center bg-gray-900 text-gray-500 focus:outline-none w-6 h-6 rounded-sm">
-				<i v-if="!isOpen" class="fa-solid fa-bars text-white text-2xl"></i>
-				<i v-if="isOpen"  class="fa-solid fa-xmark-large text-white text-2xl"></i>
-			</button>
+		<button
+			@click="isOpen = !isOpen"
+			type="button"
+			class="flex justify-center items-center bg-gray-900 text-gray-500 focus:outline-none w-6 h-6 rounded-sm"
+			:aria-label="isOpen ? 'Close menu' : 'Open menu'"
+			>
+			<i v-if="!isOpen" class="fa-solid fa-bars text-white text-2xl"></i>
+			<i v-if="isOpen" class="fa-solid fa-xmark text-white text-2xl"></i>
+		</button>
 		</div>
 		</div class="">
 			<div :class="isOpen ? 'flex' : 'hidden'" class="flex-col px-2 pb-4 sm:flex sm:p-0 items-start">
