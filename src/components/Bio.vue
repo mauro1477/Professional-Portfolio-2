@@ -1,8 +1,13 @@
 <template lang="">
 	<div class="sm:pt-4 sm:pb-4 pt-8 mb-8">
-		<h1 id="bio-section" class="flex justify-center font-bold text-2xl mb-2 mt-2">Mauro Vargas Jr - Professional WordPress Developer</h1>
+		<h1 
+			id="bio-section" 
+			class="flex justify-center px-4 py-2 sm:py-3 md:py-6 font-bold text-2xl mt-4 mb-4 text-center"
+			>
+			Mauro Vargas Jr - Professional WordPress Developer
+		</h1>
 		<div class="flex flex-col items-center justify-center px-4">
-			<img src="../assets/images/linkedInImage_800.webp" alt="" class="relative inline-block h-[110px] w-[110px] !rounded-full object-cover object-center mb-2">
+			<img src="../assets/images/linkedInImage_800.webp" alt="" class="relative inline-block h-[110px] w-[110px] !rounded-full object-cover object-center mb-8">
 			<div class="flex flex-col max-w-xl space-y-4 sm:space-y-6 md:space-y-8">
 				<p>I am a proud former U.S. Marine and dedicated WordPress Developer with a B.A. in Computer Science. My academic foundation covered computer systems, data structures, algorithms, databases, and web development, preparing me to solve complex technical challenges with precision.</p>
 				<p>Over the past five years, I have worked as a backend and open-source software developer for one of the largest lobbying firms in Washington, D.C., as well as two digital agencies. In these roles, I specialized in Google Cloud Platform (GCP) and Google API Services, building expertise in API integrations, backend development, and event capture that transforms raw data into actionable insights.</p>
