@@ -1,16 +1,24 @@
-import shoppingCartUrl from './assets/images/shopping-cart.png';
-import cpearUrl from './assets/images/cpear.png';
-import openedRangeUrl from './assets/images/opened-range.png';
-import forbesTateUrl from './assets/images/forbes-tate.png';
-import herzogFoundationUrl from './assets/images/herzogfoundation.png';
-import smartLabelUrl from './assets/images/smart-label.png';
-import iwfeaturesUrl from './assets/images/iwfeatures.png';
-import ingaaUrl from './assets/images/ingaa.png';
-import iwfUrl from './assets/images/iwf.png';
-import spnUrl from './assets/images/spn.png';
-import satelliteTelemetry from './assets/images/satellite-telemetry.png';
+import shoppingCartUrl from './assets/images/shopping-cart_800.webp';
+import cpearUrl from './assets/images/cpear_800.webp';
+import openedRangeUrl from './assets/images/opened-range_800.webp';
+import forbesTateUrl from './assets/images/forbes-tate_800.webp';
+import herzogFoundationUrl from './assets/images/herzogfoundation_800.webp';
+import smartLabelUrl from './assets/images/smart-label_800.webp';
+import iwfeaturesUrl from './assets/images/iwfeatures_800.webp';
+import ingaaUrl from './assets/images/ingaa_800.webp';
+import iwfUrl from './assets/images/iwf_800.webp';
+import spnUrl from './assets/images/spn_800.webp';
+import satelliteTelemetry from './assets/images/satellite-telemetry_800.webp';
+import bakerCreative from './assets/images/baker-creative_800.webp';
+
 
 const projectsData = [
+    {
+        "name": "Baker Creative",
+        "image": bakerCreative,
+        "url": "https://baker-creative.com/",
+        "technologies": ["WordPress", "Yoast SEO", "WP Rocket", "Google Search Console"]
+    },
     {
         "name": "Forbes Tate",
         "image": forbesTateUrl,
