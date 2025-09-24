@@ -3,7 +3,7 @@
 	<div class="flex flex-wrap mt-2 mb-4 max-w-[1640px] m-auto">
 		<div class="md:w-1/3 sm:w-1/2 flex p-4" v-for="project in projectsData" key="index">
 			<div class="rounded overflow-hidden shadow-lg">
-				<img class="w-full" :src="project.image" :alt="project.alt">
+				<img class="w-full" :src="project.image" :alt="project.alt" width="400px" height="400px">
 				<div class="px-4 py-4">
 					<a :href="project.url" target="_blank" rel="noopener noreferrer">
 						<h2 class="font-bold text-xl mb-2">{{project.name}}</h2>
