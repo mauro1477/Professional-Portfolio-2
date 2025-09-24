@@ -38,17 +38,31 @@
 					>Education</a>
 				</div>
 				<div class="contact-banner flex items-center sm:space-x-2 md:space-x-6">
-					<a href="https://www.linkedin.com/in/mvjr14/" target="_blank" rel="noopener noreferrer">
-						<i class="fa-brands fa-linkedin-in font-semibold block py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer"></i>
+					<a href="https://www.linkedin.com/in/mvjr14"
+						aria-label="Follow Mauro on LinkedIn (opens in new tab)"
+						target="_blank" rel="noopener">
+						<i class="fa-brands fa-linkedin-in font-semibold block py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer" aria-hidden="true"></i>
 					</a>
-					<a href="https://github.com/mauro1477" target="_blank" rel="noopener noreferrer">
-						<i class="fa-brands fa-github font-semibold block py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer"></i>
+					<a href="https://github.com/mauro1477" 
+						target="_blank"
+						aria-label="Follow Mauro on Github (opens in new tab)"
+						rel="noopener noreferrer"
+						>
+						<i class="fa-brands fa-github font-semibold block py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer" aria-hidden="true"></i>
 					</a>
-					<a href="mailto:maurovargas7725@gmail.com">
-						<i class="fa-solid fa-envelope font-semibold block py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer"></i>
+					<a href="mailto:maurovargas7725@gmail.com"
+						target="_blank"
+						aria-label="Email Mauro (opens in new tab)"
+						rel="noopener noreferrer"
+						>
+						<i class="fa-solid fa-envelope font-semibold block py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer" aria-hidden="true"></i>
 					</a>
-					<a href="tel:12082900785" class="text-white flex items-center">
-						<i class="fa-solid fa-phone font-semibold"></i>
+					<a href="tel:12082900785" class="text-white flex items-center"
+						target="_blank"
+						aria-label="Call Mauro (opens in new tab)"
+						rel="noopener noreferrer"
+						>
+						<i class="fa-solid fa-phone py-1 px-2 font-semibold" aria-hidden="true"></i>
 						<span class="ml-2 block py-1 px-2 text-white font-semibold rounded hover:bg-gray-800 cursor-pointer">208-290-0785</span>
 					</a>
 				</div>
